@@ -32,11 +32,11 @@ Gross Margin %
 
 🔑 Key Insights (from data)
 
-✔️ Giza branch generated the highest revenue (110.6K), followed by Alex (106.2K) and Cairo (106.1K).
+✔️ Giza branch generated the highest revenue, followed by Alex and Cairo.
 
-✔️ Female customers contributed more revenue (194.7K) compared to male customers (128.3K).
+✔️ Female customers contributed more revenue compared to male customers.
 
-✔️ The top product line by revenue was Food and Beverages (56.1K), followed closely by Sports and Travel (55.1K) and Electronic Accessories (54.3K).
+✔️ The top product line by revenue was Food and Beverages, followed closely by Sports and Travel and Electronic Accessories.
 
 ✔️ Saturday recorded the highest sales, confirming that weekends drive more business.
 
