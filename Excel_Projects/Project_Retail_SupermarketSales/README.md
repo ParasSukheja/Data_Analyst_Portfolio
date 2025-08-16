@@ -52,8 +52,7 @@ Supermarket_Sales_Dashboard.xlsx
 
 📸 Dashboard Preview
 
-[Dashboard ScreentShot](
-Excel_Projects/Project_Retail_SupermarketSales/Supermarket_Sales_Dashboard.png.)
+[Dashboard ScreentShot](Excel_Projects/Project_Retail_SupermarketSales/Images/Supermarket_Sales_Dashboard.png)
 
 🚀 Tools & Techniques Used
 
