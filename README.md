@@ -6,7 +6,7 @@ This repository contains my Data Analyst projects, covering different tools and 
 
 📊 Projects by Tools
 
-🟢 Excel
+[🟢 Excel](Excel_Projects)
 
 [Supermarket Sales Dashboard](Excel_Projects/Project_Retail_SupermarketSales) → An interactive Excel dashboard built using PivotTables and charts to analyze sales performance.
 
