@@ -463,7 +463,7 @@ The dataset consists of one fact table and five dimension tables:
 | 60      | 3/1/2023  | 1   | 3     | 2023 | March      |
 
 🗂️ ER Diagram
-![ER Diagram](ER-Diagram.png)
+![ER Diagram](SQL_Projects/Project_ecommerce_SalesAnalysis/ER-Diagram.png)
 
 🛠️ Tools and Skills Used
 
