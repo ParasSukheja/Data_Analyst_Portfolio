@@ -39,7 +39,7 @@ project_ecommerce_salesanalysis/
 
 ├── 🖼️ images/ → ER diagrams, visual references
 
-│ └── er_diagram.png
+│ └── ER-Diagram.png
 
 │
 
