@@ -1,0 +1,22 @@
+product_id,product_name,category,brand,color,price
+1,Shirt,Clothing,Braun-Kelly,Red,37.03
+2,Jeans,Clothing,Davis-Booth,Blue,50.14
+3,Jacket,Clothing,Thomas-Evans,White,59.32
+4,Dress,Clothing,Sims PLC,Red,432.36
+5,T-Shirt,Clothing,Watkins-Villarreal,Blue,406.67
+6,Smartphone,Electronics,Berry Inc,Black,26.47
+7,Laptop,Electronics,"White, Ramirez and Dominguez",Blue,246.26
+8,Headphones,Electronics,Ruiz LLC,Black,221.45
+9,Camera,Electronics,Skinner-Castaneda,White,439.24
+10,Smartwatch,Electronics,Harris-Wilkinson,Red,97.33
+11,Bag,Accessories,Simmons-Preston,Black,83.91
+12,Shoes,Accessories,Brennan-Taylor,White,189.72
+13,Belt,Accessories,Lucas Group,Blue,326.92
+14,Sunglasses,Accessories,"Smith, Johnson and Howard",Black,34.21
+15,Wallet,Accessories,Anderson and Sons,White,46.1
+16,Mixer,Home,Rivera LLC,White,397.64
+17,Toaster,Home,Hudson-Pittman,Blue,177.35
+18,Vacuum,Home,Lawrence LLC,Green,395.9
+19,Lamp,Home,"Chandler, Banks and Woods",White,155.13
+20,Chair,Home,"Logan, Mckinney and Sellers",Black,189.78
+21,Table,Home,"King, Vazquez and Yoder",White,400.39
