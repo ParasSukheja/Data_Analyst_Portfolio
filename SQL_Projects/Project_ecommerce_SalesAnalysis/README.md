@@ -498,7 +498,7 @@ The dataset consists of one fact table and five dimension tables:
 
 ✔ Promotion effectiveness (promo code vs. no promo)
 
-(Complete queries and solutions → solutions.md)
+(Complete queries and solutions → [solutions.md](solutions.md))
 
 🚀 Key Business Value
 
