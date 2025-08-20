@@ -12,7 +12,7 @@ This repository contains my Data Analyst projects, covering different tools and 
 
 🔵 SQL
 
-[E-Commerce Sales Analysis]() → A SQL project using a star schema database design to analyze e-commerce orders. The project covers 10 real-world business case studies (e.g., revenue by category, customer segmentation, product returns, promotion effectiveness) with detailed queries and insights.
+[E-Commerce Sales Analysis](SQL_Projects/Project_ecommerce_SalesAnalysis) → A SQL project using a star schema database design to analyze e-commerce orders. The project covers 10 real-world business case studies (e.g., revenue by category, customer segmentation, product returns, promotion effectiveness) with detailed queries and insights.
 
 🐍 Python
 
