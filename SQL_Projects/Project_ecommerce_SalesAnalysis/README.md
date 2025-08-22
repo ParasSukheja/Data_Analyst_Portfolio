@@ -1,14 +1,14 @@
-📦 Project Title
+# 📦 Project Title
 
-Ecommerce Sales Analysis (SQL Project)
+**Ecommerce Sales Analysis (SQL Project)**
 
-📝 Project Overview
+## 📝 Project Overview
 
 This project analyzes an Ecommerce sales dataset using SQL to uncover insights about revenue, customers, product performance, and promotions.
 The dataset is designed in a Star Schema format with one fact table (fact_orders) and multiple dimension tables.
 The goal is to demonstrate SQL skills through solving real-world business case studies that support data-driven decisions.
 
-📂 Project Structure
+### 📂 Project Structure
 project_ecommerce_salesanalysis/
 
 │
@@ -47,11 +47,11 @@ project_ecommerce_salesanalysis/
 
 └── 📖 solutions.md → Detailed queries and solutions
 
-🗄️ Dataset
+### 🗄️ Dataset
 
 The dataset consists of one fact table and five dimension tables:
 
-📦 fact_orders → Order details (customer, product, payment, shipping, revenue)
+**📦 fact_orders → Order details (customer, product, payment, shipping, revenue)**
 | order_id | customer_id | product_id | payment_id | shipping_id | date_id | quantity | discount_pct | final_price | review_rating | promo_code_used | return_flag |
 |----------|-------------|------------|------------|-------------|---------|----------|--------------|-------------|---------------|-----------------|-------------|
 | 1        | 42          | 2          | 1          | 1           | 50      | 3        | 15           | 127.86      | 5             | 1               | 1           |
@@ -303,9 +303,9 @@ The dataset consists of one fact table and five dimension tables:
 | 247      | 37          | 20         | 1          | 2           | 20      | 3        | 5            | 540.87      | 3             | 1               | 1           |
 | 248      | 13          | 10         | 2          | 1           | 22      | 2        | 5            | 184.93      | 5             | 1               | 0           |
 | 249      | 34          | 2          | 2          | 2           | 3       | 1        | 15           | 42.62       | 4             | 0               | 0           |
-| 250      | 44          | 14         | 2          | 2           | 25      | 2        | 5            | 65          | 3             | 1               | 0           |
+| 250      | 44          | 14         | 2          | 2           | 25      | 2        | 5            | 65          | 3             | 1               | 0           
 
-👤 dim_customer → Customer demographics
+**👤 dim_customer → Customer demographics**
 | customer_id | first_name | last_name  | gender | age | location             | preferred_payment |
 |-------------|------------|------------|--------|-----|----------------------|-------------------|
 | 1           | Brian      | Schwartz   | Male   | 19  | Dominiquehaven       | Cash on Delivery  |
@@ -359,7 +359,7 @@ The dataset consists of one fact table and five dimension tables:
 | 49          | Kendra     | Marshall   | Female | 32  | New Michael          | Credit Card       |
 | 50          | Natasha    | Gibson     | Female | 44  | South Katherine      | Cash on Delivery  |
 
-🛒 dim_product → Product info (category, price, etc.)
+**🛒 dim_product → Product info (category, price, etc.)**
 | product_id | product_name | category    | brand                        | color | price  |
 |------------|--------------|-------------|------------------------------|-------|--------|
 | 1          | Shirt        | Clothing    | Braun-Kelly                  | Red   | 37.03  |
@@ -384,21 +384,21 @@ The dataset consists of one fact table and five dimension tables:
 | 20         | Chair        | Home        | Logan, Mckinney and Sellers  | Black | 189.78 |
 | 21         | Table        | Home        | King, Vazquez and Yoder      | White | 400.39 |
 
-💳 dim_payment → Payment methods
+**💳 dim_payment → Payment methods**
 | payment_id | method           |
 |------------|------------------|
 | 1          | Credit Card      |
 | 2          | PayPal           |
 | 3          | Cash on Delivery |
 
-🚚 dim_shipping → Shipping methods
+**🚚 dim_shipping → Shipping methods**
 | shipping_id | type     | cost |
 |-------------|----------|------|
 | 1           | Standard | 5    |
 | 2           | Express  | 10   |
 | 3           | Same-Day | 20   |
 
-📅 dim_date → Calendar attributes
+**📅 dim_date → Calendar attributes**
 | date_id | date      | day | month | year | month_name |
 |---------|-----------|-----|-------|------|------------|
 | 1       | 1/1/2023  | 1   | 1     | 2023 | January    |
@@ -462,11 +462,11 @@ The dataset consists of one fact table and five dimension tables:
 | 59      | 2/28/2023 | 28  | 2     | 2023 | February   |
 | 60      | 3/1/2023  | 1   | 3     | 2023 | March      |
 
-🗂️ ER Diagram
+### 🗂️ ER Diagram
 
 ![ER Diagram](Images/ER-Diagram.png)
 
-🛠️ Tools and Skills Used
+### 🛠️ Tools and Skills Used
 
 🐬 SQL (MySQL Workbench) – Data cleaning, transformation, and analysis
 
@@ -476,7 +476,7 @@ The dataset consists of one fact table and five dimension tables:
 
 💡 Business Insights – Translating queries into decisions
 
-📈 Business Case Studies Solved
+### 📈 Business Case Studies Solved
 
 ✔ Total revenue analysis
 
@@ -498,9 +498,9 @@ The dataset consists of one fact table and five dimension tables:
 
 ✔ Promotion effectiveness (promo code vs. no promo)
 
-(Complete queries and solutions → [solutions.md](solutions.md))
+**(Complete queries and solutions → [solutions.md](solutions.md))**
 
-🚀 Key Business Value
+### 🚀 Key Business Value
 
 📌 Identify top-performing products & categories
 
