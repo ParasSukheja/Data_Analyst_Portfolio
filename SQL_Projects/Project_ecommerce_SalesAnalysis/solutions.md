@@ -1,10 +1,10 @@
 # 🛒 Case Study 1: Top Selling Products
 
-**📌 Question:**
+### 📌 Question:
 
 **What are the top 10 best-selling products by quantity?**
 
-🧾 SQL Query:
+#### 🧾 SQL Query:
 ```sql
 select p.product_name,sum(o.quantity) as total_sold
 from dim_product p inner join fact_orders o
@@ -13,7 +13,7 @@ group by p.product_name
 order by total_sold DESC
 limit 10;
 ```
-📊 Output:
+**📊 Output:**
 | product_name | total_sold |
 |--------------|------------|
 | Sunglasses   | 43         |
@@ -37,13 +37,13 @@ This analysis helps the business identify its best-performing products. Such ins
 
 # 💰 Case Study 2: Revenue by Category
 
-**📌 Question:**
+### 📌 Question:
 
 **Which product categories generate the most revenue? Rank them.**
 
-🧾 SQL Queries:
+#### 🧾 SQL Queries:
 
-✅ Solution 1: Gross Revenue (Before Discounts/Promo/Returns)
+**✅ Solution 1: Gross Revenue (Before Discounts/Promo/Returns)**
 ```sql
 select p.category, sum(p.price*o.quantity) as gross_revenue 
 from dim_product p inner join fact_orders o 
@@ -51,7 +51,7 @@ on p.product_id = o.product_id
 group by p.category 
 order by gross_revenue DESC;
 ```
-📊 Output (Gross Revenue):
+**📊 Output (Gross Revenue):**
 | category    | gross_revenue |
 |-------------|---------------|
 | Home        | 37229.16      |
@@ -59,7 +59,7 @@ order by gross_revenue DESC;
 | Clothing    | 20445.82      |
 | Accessories | 16971.75      |
 
-✅ Solution 2: Net Revenue (After Discounts/Promo/Returns)
+**✅ Solution 2: Net Revenue (After Discounts/Promo/Returns)**
 ```sql
 select p.category,sum(o.final_price) as net_revenue
 from dim_product p inner join fact_orders o
@@ -67,7 +67,7 @@ on p.product_id = o.product_id
 group by p.category
 order by net_revenue DESC;
 ```
-📊 Output (Net Revenue):
+**📊 Output (Net Revenue):**
 | category    | net_revenue |
 |-------------|-------------|
 | Home        | 33386.1     |
@@ -95,13 +95,13 @@ Decision-makers can use this insight to optimize pricing, promotional strategies
 
 # 📈 Case Study 3: Monthly Revenue Trend
 
-**📌 Question:**
+### 📌 Question:
 
 **Show monthly total revenue for the last 2 years.**
 
-🧾 SQL Queries:
+#### 🧾 SQL Queries:
 
-✅ Solution 1: Gross Revenue (Before Discounts/Promo/Returns)
+**✅ Solution 1: Gross Revenue (Before Discounts/Promo/Returns)**
 ```sql
 select date_format(d.date,'%Y-%m') as months,sum(p.price*o.quantity) as gross_revenue
 from dim_date d inner join fact_orders o 
@@ -111,14 +111,14 @@ where d.date>= date_sub((select max(date) from dim_date), interval 2 year)
 group by months
 order by months;
 ```
-📊 Output (Gross Revenue):
+**📊 Output (Gross Revenue):**
 | months  | gross_revenue |
 |---------|---------------|
 | 2023-01 | 56110.89      |
 | 2023-02 | 44360.4       |
 | 2023-03 | 1465.42       |
 
-✅ Solution 2: Net Revenue (After Discounts/Promo/Returns)
+**✅ Solution 2: Net Revenue (After Discounts/Promo/Returns)**
 ```sql
 select date_format(d.date,'%Y-%m') as months, sum(o.final_price) as net_revenue
 from dim_date d inner join fact_orders o 
@@ -127,7 +127,7 @@ where d.date >= date_sub((select max(date) from dim_date), interval 2 year)
 group by months
 order by months;
 ```
-📊 Output (Net Revenue):
+**📊 Output (Net Revenue):**
 | months  | net_revenue |
 |---------|-------------|
 | 2023-01 | 50316.18    |
@@ -154,13 +154,13 @@ Enables better forecasting and inventory planning for peak and off-peak months.
 
 # 👥 Case Study 4: Customer Segmentation by Age Group
 
-**📌 Question:**
+### 📌 Question:
 
 **Which age group contributes the most revenue?**
 
-🧾 SQL Queries:
+#### 🧾 SQL Queries:
 
-✅ Solution 1: Gross Revenue (Before Discounts/Promo/Returns)
+**✅ Solution 1: Gross Revenue (Before Discounts/Promo/Returns)**
 ```sql
 select 
 	case 
@@ -177,7 +177,7 @@ inner join dim_product p on p.product_id = o.product_id
 group by age_group 
 order by gross_revenue DESC;
 ```
-📊 Output (Gross Revenue):
+**📊 Output (Gross Revenue):**
 | age_group | gross_revenue |
 |-----------|---------------|
 | 40-49     | 29765.96      |
@@ -186,7 +186,7 @@ order by gross_revenue DESC;
 | 50+       | 12542.25      |
 | <20       | 5986.07       |
 
-✅ Solution 2: Net Revenue (After Discounts/Promo/Returns)
+**✅ Solution 2: Net Revenue (After Discounts/Promo/Returns)**
 ```sql
 select 
 	case
@@ -202,7 +202,7 @@ on c.customer_id = o.customer_id
 group by age_group
 order by net_revenue DESC;
 ```
-📊 Output (Net Revenue):
+**📊 Output (Net Revenue):**
 | age_group | net_revenue |
 |-----------|-------------|
 | 40-49     | 26553       |
@@ -231,13 +231,13 @@ Understanding age-group revenue helps with personalized marketing, product posit
 
 # 💸 Case Study 5: Impact of Discounts
 
-**📌 Question:**
+### 📌 Question:
 
 **Compare average revenue per order with and without discounts.**
 
-🧾 SQL Queries:
+#### 🧾 SQL Queries:
 
-✅ Solution 1: Gross Revenue per Order (Before Discounts/Promo/Returns)
+**✅ Solution 1: Gross Revenue per Order (Before Discounts/Promo/Returns)**
 ```sql
 select round(avg(order_gross_revenue),2) as avg_gross_revenue_per_order from
 (select o.order_id,sum(p.price*o.quantity) as order_gross_revenue 
@@ -245,19 +245,19 @@ from dim_product p inner join fact_orders o
 on p.product_id = o.product_id
 group by o.order_id) as der_tab;
 ```
-📊 Output (Gross Revenue):
+**📊 Output (Gross Revenue):**
 | avg_gross_revenue_per_order |
 |-----------------------------|
 | 407.75                      |
 
-✅ Solution 2: Net Revenue per Order (After Discounts/Promo/Returns)
+**✅ Solution 2: Net Revenue per Order (After Discounts/Promo/Returns)**
 ```sql
 select round(avg(order_net_revenue),2) as avg_net_revenue_per_order from
 (select order_id,sum(final_price) as order_net_revenue
 from  fact_orders
 group by order_id) as der_tab;
 ```
-📊 Output (Net Revenue):
+**📊 Output (Net Revenue):**
 | avg_net_revenue_per_order |
 |---------------------------|
 | 366.95                    |
@@ -280,11 +280,11 @@ A possible strategy: use discounts for low-performing products or festive campai
 
 # 💳 Case Study 6: Payment Method Preference
 
-**📌 Question:**
+### 📌 Question:
 
 **What are the most popular payment methods among customers?**
 
-🧾 SQL Query:
+#### 🧾 SQL Query:
 ```sql
 select p.method, count(o.order_id) as total_order 
 from dim_payment p inner join fact_orders o
@@ -293,7 +293,7 @@ group by method
 order by total_order DESC
 limit 1;
 ```
-📊 Output:
+**📊 Output:**
 | method           | total_order |
 |------------------|-------------|
 | Cash on Delivery | 99          |
@@ -320,13 +320,13 @@ Building trust with refund policies for online payments.
 
 # 🚚 Case Study 7: Shipping Type Impact
 
-**📌 Question:**
+### 📌 Question:
 
 **Do customers who choose Express shipping spend more than Standard shipping customers?**
 
-🧾 SQL Queries:
+#### 🧾 SQL Queries:
 
-🧾 Solution 1: Average Gross Revenue per Order (Before Discounts/Returns)
+**🧾 Solution 1: Average Gross Revenue per Order (Before Discounts/Returns)**
 ```sql
 select shipping_id,type, round(avg(order_total),2) as avg_gross_revenue_per_order from
 (select o.order_id, s.shipping_id,s.type ,sum(p.price*o.quantity) as order_total
@@ -338,14 +338,14 @@ group by o.order_id,s.shipping_id,s.type
 group by shipping_id , type
 order by avg_gross_revenue_per_order DESC;
 ```
-📊 Output:
+**📊 Output:**
 | shipping_id | type     | avg_gross_revenue_per_order |
 |-------------|----------|-----------------------------|
 | 1           | Standard | 443.31                      |
 | 2           | Express  | 393.84                      |
 | 3           | Same-Day | 385.56                      |
 
-🧾 Solution 2: Average Net Revenue per Order (After Discounts/Returns)
+**🧾 Solution 2: Average Net Revenue per Order (After Discounts/Returns)**
 ```sql
 select shipping_id, type, round(avg(order_total),2) as avg_net_revenue_per_order from
 (select o.order_id, s.shipping_id, s.type, sum(o.final_price) as order_total
@@ -356,7 +356,7 @@ group by o.order_id,s.shipping_id,s.type
 group by shipping_id, type
 order by avg_net_revenue_per_order DESC;
 ```
-📊 Output:
+**📊 Output:**
 | shipping_id | type     | avg_net_revenue_per_order |
 |-------------|----------|---------------------------|
 | 1           | Standard | 403.05                    |
@@ -395,11 +395,11 @@ Standard shipping customers not only spend more but also provide more stable and
 
 # 🧑‍🤝‍🧑 Case Study 8: Customer Loyalty
 
-**📌 Question:**
+### 📌 Question:
 
 **Who are the top 5 customers with the highest number of orders?**
 
-🧾 SQL Queries:
+#### 🧾 SQL Queries:
 ```sql
 select customer_id,count(order_id) as total_orders
 from fact_orders
@@ -407,7 +407,7 @@ group by customer_id
 order by total_orders DESC
 limit 5;
 ```
-📊 Output:
+**📊 Output:**
 | customer_id | total_orders |
 |-------------|--------------|
 | 10          | 12           |
@@ -446,24 +446,24 @@ Offering referral bonuses could turn them into drivers of new customer acquisiti
 
 # 📦 Case Study 9: Product Return Analysis
 
-**📌 Question:**
+### 📌 Question:
 
 **What percentage of orders are returned, and which product category has the highest return rate?**
 
-🧾 SQL Queries:
+#### 🧾 SQL Queries:
 
-Step 1: Overall Percentage of Orders Returned
+**Step 1: Overall Percentage of Orders Returned**
 ```sql
 select round(100.0*sum(case when return_flag = 1 then 1 else 0 end) / count(*),2) 
 as return_percentage
 from fact_orders;
 ```
-📊 Output:
+**📊 Output:**
 | return_percentage |
 |-------------------|
 | 54.4              |
 
-Step 2: Category with Highest Return Rate
+**Step 2: Category with Highest Return Rate**
 ```sql
 select p.category, round(100.0*sum(case when o.return_flag = 1 then 1 else 0 end) / count(*),2)
 as return_percentage
@@ -472,7 +472,7 @@ on o.product_id = p.product_id
 group by  p.category
 order by return_percentage DESC;
 ```
-📊 Output:
+**📊 Output:**
 | category    | return_percentage |
 |-------------|-------------------|
 | Clothing    | 64.91             |
@@ -516,13 +516,13 @@ Reducing returns by even 5–10% could significantly improve net revenue and ope
 
 # 🎯 Case Study 10: Promotion Effectiveness
 
-**📌 Question:**
+### 📌 Question:
 
 **Compare the average revenue per order where a promo code was used vs. not used.**
 
-🧾 SQL Queries:
+#### 🧾 SQL Queries:
 
-Step 1: Promotion Effectiveness (Gross Revenue)
+**Step 1: Promotion Effectiveness (Gross Revenue)**
 ```sql
 select promo_code_used, round(avg(order_gross_revenue),2) as avg_gross_revenue_per_order from
 (select o.order_id,o.promo_code_used,sum(p.price*o.quantity) as order_gross_revenue
@@ -531,13 +531,13 @@ on o.product_id = p.product_id
 group by o.order_id, o.promo_code_used) as der_tab
 group by promo_code_used;
 ```
-📊 Output:
+**📊 Output:**
 | promo_code_used | avg_gross_revenue_per_order |
 |-----------------|-----------------------------|
 | 0               | 416.11                      |
 | 1               | 399.11                      |
 
-Step 2: Promotion Effectiveness (Net Revenue)
+**Step 2: Promotion Effectiveness (Net Revenue)**
 ```sql
 select promo_code_used, round(avg(order_net_revenue),2) as avg_net_revenue_per_order from
 (select order_id,promo_code_used,sum(final_price) as order_net_revenue
@@ -545,7 +545,7 @@ from fact_orders
 group by order_id, promo_code_used) as der_tab
 group by promo_code_used;
 ```
-📊 Output:
+**📊 Output:**
 | promo_code_used | avg_net_revenue_per_order |
 |-----------------|---------------------------|
 | 1               | 360.05                    |
