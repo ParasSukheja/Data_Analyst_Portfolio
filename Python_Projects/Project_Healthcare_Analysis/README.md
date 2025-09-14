@@ -100,7 +100,7 @@ Project_Healthcare_Analysis/
 - 📌 No-show Rates by Weekday
 ![📌 No-show Rates by Weekday](visualizations/weekday_noshow.png)
 
-- 📌 No-show Count by Neighborhood
+- 📌 No-show Count by Neighbourhood
 ![📌 No-show Count by Neighborhood](visualizations/neighbour_noshow.png)
 
 ## 🔑 Key Insights
@@ -115,7 +115,7 @@ Project_Healthcare_Analysis/
 
 **5. Weekday & Month: Mondays have highest no-shows, weekends lowest.**
 
-**6. Neighbourhood: Certain neighborhoods show higher no-show counts (top 20 highlighted).**
+**6. Neighborhood: Certain neighborhoods show higher no-show counts (top 20 highlighted).**
 
 **7. Health Conditions: High-risk patients (Hypertension, Diabetes, Alcoholism, Handicap) have minorly higher no-show.**
 
