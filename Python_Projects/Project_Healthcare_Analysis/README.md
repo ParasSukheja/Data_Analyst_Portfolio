@@ -2,6 +2,14 @@
 
 ***🏥 Healthcare Appointment No-Show Analysis***
 
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?logo=seaborn&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-purple?logo=plotly&logoColor=white)
+
 ## 📖 Project Overview
 
 Missed medical appointments are a significant challenge for healthcare systems, leading to wasted resources, increased costs, and delayed treatments.
@@ -86,7 +94,46 @@ Project_Healthcare_Analysis/
 
 ## 📊 Key Visuals
 
-1. Percentage of No-shows vs Shows
-![Percentage of No-shows vs Shows]()
+- 📌 No-show vs Show Pie Chart
+![Percentage of No-shows vs Shows](visualizations/pie_noshow.png)
 
+- 📌 No-show Rates by Weekday
+![📌 No-show Rates by Weekday](visualizations/weekday_noshow.png)
+
+- 📌 No-show Count by Neighborhood
+![📌 No-show Count by Neighborhood](visualizations/neighbour_noshow.png)
+
+## 🔑 Key Insights
+
+**1. Overall No-show Rate: approx 20.19% of patients missed appointments.**
+
+**2. Age: Younger adults (18-40) have slightly higher no-show rates.**
+
+**3. Gender: Females/males show similar attendance, slight variation.**
+
+**4. SMS reminders: Patients receiving SMS are less likely to miss appointments.**
+
+**5. Weekday & Month: Mondays have highest no-shows, weekends lowest.**
+
+**6. Neighbourhood: Certain neighborhoods show higher no-show counts (top 20 highlighted).**
+
+**7. Health Conditions: High-risk patients (Hypertension, Diabetes, Alcoholism, Handicap) have minorly higher no-show.**
+
+**8. Scholarship: Patients on social welfare program show similar/no significant variation.**
+
+## ✅ Recommendations
+
+**1.Send SMS reminders to all patients systematically.**
+
+**2.Focus on neighborhoods with high no-show rates.**
+
+**3.Consider scheduling high-risk patients earlier in the week.**
+
+**4.Use insights for hospital resource planning (staffing, equipment, appointment slots).**
+
+## 📌 Conclusion
+
+This analysis shows the main reasons why patients miss their appointments. Younger adults, certain weekdays, and some neighbourhoods have higher no-show rates. Receiving an SMS reminder helps patients show up. Health conditions and scholarship status do not affect attendance much.
+
+By using these insights, hospitals can send SMS reminders, focus on high-risk neighbourhoods, and schedule patients more effectively to reduce missed appointments and improve patient care.
 
