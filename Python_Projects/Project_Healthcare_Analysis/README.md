@@ -87,6 +87,6 @@ Project_Healthcare_Analysis/
 ## 📊 Key Visuals
 
 1. Percentage of No-shows vs Shows
-!["pie_noshow.png"]
+![Percentage of No-shows vs Shows]()
 
 
