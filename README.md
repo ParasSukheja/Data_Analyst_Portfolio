@@ -16,7 +16,7 @@ This repository contains my Data Analyst projects, covering different tools and 
 
 ### 🐍 Python
 
-[Healthcare Appointment No-Show Analysis]() → A Python data analysis project using Pandas, NumPy, Matplotlib, Seaborn, and Plotly.  
+[Healthcare Appointment No-Show Analysis](Python_Projects/Project_Healthcare_Analysis) → A Python data analysis project using Pandas, NumPy, Matplotlib, Seaborn, and Plotly.  
    This project analyzes 110,000+ hospital appointments in Brazil to explore factors influencing missed appointments and provides actionable insights for healthcare management.
 
 ### 🟣 Power BI
