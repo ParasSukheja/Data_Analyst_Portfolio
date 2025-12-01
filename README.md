@@ -33,11 +33,13 @@ I am currently learning and building projects in:
 
 **Python ✅**
 
-**Statistics (In Progress)**
+**Statistics ✅**
+
+**Power BI ✅**
 
 **Machine Learning (Upcoming)**
 
-**Power BI & Tableau (Upcoming)**
+**Tableau (Upcoming)**
 
 ## 🚀 Tools & Skills Highlighted
 
