@@ -21,7 +21,7 @@ This project analyzes 110,000+ hospital appointments in Brazil to explore factor
 
 ### 🟣 Power BI
 
-[Banking Analytics Dashboard](PowerBI_Projects/Project_Banking_Analytics) → A Power BI project analyzing bank customers, accounts, loans, and transactions to understand customer behavior, evaluate financial performance, and identify risks such as loan defaults and potential fraud using interactive dashboards.
+[Banking Analytics Dashboard](Power_Bi_Projects/Project_Baking_Analytics/) → A Power BI project analyzing bank customers, accounts, loans, and transactions to understand customer behavior, evaluate financial performance, and identify risks such as loan defaults and potential fraud using interactive dashboards.
 
 ## 🎯 Roadmap
 
