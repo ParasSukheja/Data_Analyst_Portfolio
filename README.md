@@ -6,6 +6,20 @@ This repository contains my Data Analyst projects, covering different tools and 
 
 ## 📊 Projects by Tools
 
+### 📦 Logistics & Supply Chain Analytics Dashboard (Capstone Project)
+
+End-to-end data analytics project focused on optimizing logistics and supply chain performance using real-world data.
+
+**🔧 Tools Used:** Excel, SQL, Python, Power BI  
+
+**📊 Key Highlights:**
+- Data Cleaning & Preparation using Excel  
+- SQL Database Design and Business Query Analysis  
+- Exploratory Data Analysis (EDA) using Python  
+- Interactive Power BI Dashboard (Overview & Deep Insights)
+
+[![View Capstone Project](https://img.shields.io/badge/View-Capstone_Project-blue)](https://github.com/ParasSukheja/logistics-supply-chain-analytics)
+
 ### 🟢 Excel
 
 [Supermarket Sales Dashboard](Excel_Projects/Project_Retail_SupermarketSales) → An interactive Excel dashboard built using PivotTables and charts to analyze sales performance.
