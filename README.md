@@ -1,10 +1,13 @@
 # 📂 Data Analyst Portfolio
 
-## 👋 About
+## 👋 About Me
 
-This repository contains my Data Analyst projects, covering different tools and technologies. Each project is organized in its own folder with datasets, project files, documentation, and insights.
+Data Analytics & Data Science Professional focused on transforming data into actionable business insights.  
+This repository showcases my end-to-end projects across Excel, SQL, Python, Power BI, and Machine Learning, covering data cleaning, analysis, visualization, and predictive modeling.
 
-## 📊 Projects by Tools
+---
+
+## 🚀 Featured Project
 
 ### 📦 Logistics & Supply Chain Analytics Dashboard (Capstone Project)
 
@@ -20,47 +23,70 @@ End-to-end data analytics project focused on optimizing logistics and supply cha
 
 [![View Capstone Project](https://img.shields.io/badge/View-Capstone_Project-blue)](https://github.com/ParasSukheja/logistics-supply-chain-analytics)
 
-### 🟢 Excel
+---
 
-[Supermarket Sales Dashboard](Excel_Projects/Project_Retail_SupermarketSales) → An interactive Excel dashboard built using PivotTables and charts to analyze sales performance.
+## 📊 Projects by Tools
 
-### 🔵 SQL
+### 🟢 Excel  
+**Supermarket Sales Dashboard**  
+An interactive Excel dashboard built using PivotTables and charts to analyze sales performance.
 
-[E-Commerce Sales Analysis](SQL_Projects/Project_ecommerce_SalesAnalysis) → A SQL project using a star schema database design to analyze e-commerce orders. The project covers 10 real-world business case studies (e.g., revenue by category, customer segmentation, product returns, promotion effectiveness) with detailed queries and insights.
+[![View Project](https://img.shields.io/badge/View-Excel_Project-green)](https://github.com/ParasSukheja/Excel_Projects/tree/main/Project_Retail_SupermarketSales)
 
-### 🐍 Python
+---
 
-[Healthcare Appointment No-Show Analysis](Python_Projects/Project_Healthcare_Analysis) → A Python data analysis project using Pandas, NumPy, Matplotlib, Seaborn, and Plotly.  
-This project analyzes 110,000+ hospital appointments in Brazil to explore factors influencing missed appointments and provides actionable insights for healthcare management.
+### 🔵 SQL  
+**E-Commerce Sales Analysis**  
+A SQL project using a star schema database design to analyze e-commerce orders. Covers real-world business case studies including revenue trends, customer segmentation, product performance, and returns analysis.
 
-### 🟣 Power BI
+[![View Project](https://img.shields.io/badge/View-SQL_Project-blue)](https://github.com/ParasSukheja/SQL_Projects/tree/main/Project_ecommerce_SalesAnalysis)
 
-[Banking Analytics Dashboard](Power_Bi_Projects/Project_Baking_Analytics/) → A Power BI project analyzing bank customers, accounts, loans, and transactions to understand customer behavior, evaluate financial performance, and identify risks such as loan defaults and potential fraud using interactive dashboards.
+---
 
-## 🎯 Roadmap
+### 🐍 Python  
+**Healthcare Appointment No-Show Analysis**  
+Analyzes 110,000+ hospital appointments using Pandas, NumPy, Matplotlib, Seaborn, and Plotly to identify patterns behind missed appointments and generate actionable insights.
 
-I am currently learning and building projects in:
+[![View Project](https://img.shields.io/badge/View-Python_Project-yellow)](https://github.com/ParasSukheja/Python_Projects/tree/main/Project_Healthcare_Analysis)
 
-**Excel ✅**
+---
 
-**SQL ✅**
+### 🟣 Power BI  
+**Banking Analytics Dashboard**  
+Analyzes customer data, accounts, loans, and transactions to uncover insights on customer behavior, financial performance, and risk factors like loan defaults and fraud.
 
-**Python ✅**
+[![View Project](https://img.shields.io/badge/View-PowerBI_Project-purple)](https://github.com/ParasSukheja/Power_Bi_Projects/tree/main/Project_Baking_Analytics)
 
-**Statistics ✅**
+---
 
-**Power BI ✅**
+## 🛠 Tools & Skills
 
-**Machine Learning (Upcoming)**
+- **Data Analysis:** Excel, SQL, Python  
+- **Data Visualization:** Power BI, Excel  
+- **Machine Learning:** Supervised & Unsupervised Learning  
+- **Statistics:** Descriptive Statistics, Probability, Hypothesis Testing  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Plotly, scikit-learn  
+- **Core Skills:** Data Cleaning, EDA, Dashboarding, Predictive Modeling, Business Insights    
 
-**Tableau (Upcoming)**
+---
 
-## 🚀 Tools & Skills Highlighted
+## 🎯 Learning Roadmap
 
-**Data Cleaning & Analysis** (Excel, SQL, Python)
+- Excel ✅  
+- SQL ✅  
+- Python ✅  
+- Statistics ✅  
+- Power BI ✅  
+- Machine Learning ✅  
 
-**Data Visualization** (Excel, Power BI, Tableau)
+---
 
-**Business KPIs & Dashboard Design**
+## 📬 Contact
 
-**Introductory Machine Learning (future projects)**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/paras-sukheja-689822327/)
+
+[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:sukheja.paras@gmail.com)
+
+---
+
+⭐ If you found this portfolio useful, feel free to explore and give feedback!
