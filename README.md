@@ -39,7 +39,7 @@ An interactive Excel dashboard built using PivotTables and charts to analyze sal
 **E-Commerce Sales Analysis**  
 A SQL project using a star schema database design to analyze e-commerce orders. Covers real-world business case studies including revenue trends, customer segmentation, product performance, and returns analysis.
 
-[![View Project](https://img.shields.io/badge/View-SQL_Project-blue)](https://github.com/ParasSukheja/SQL_Projects/tree/main/Project_ecommerce_SalesAnalysis)
+[![View Project](https://img.shields.io/badge/View-SQL_Project-blue)](SQL_Projects/Project_ecommerce_SalesAnalysis)
 
 ---
 
