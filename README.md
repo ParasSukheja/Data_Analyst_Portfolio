@@ -47,7 +47,7 @@ A SQL project using a star schema database design to analyze e-commerce orders. 
 **Healthcare Appointment No-Show Analysis**  
 Analyzes 110,000+ hospital appointments using Pandas, NumPy, Matplotlib, Seaborn, and Plotly to identify patterns behind missed appointments and generate actionable insights.
 
-[![View Project](https://img.shields.io/badge/View-Python_Project-yellow)](https://github.com/ParasSukheja/Python_Projects/tree/main/Project_Healthcare_Analysis)
+[![View Project](https://img.shields.io/badge/View-Python_Project-yellow)](Python_Projects/Project_Healthcare_Analysis)
 
 ---
 
