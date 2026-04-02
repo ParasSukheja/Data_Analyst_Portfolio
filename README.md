@@ -55,7 +55,7 @@ Analyzes 110,000+ hospital appointments using Pandas, NumPy, Matplotlib, Seaborn
 **Banking Analytics Dashboard**  
 Analyzes customer data, accounts, loans, and transactions to uncover insights on customer behavior, financial performance, and risk factors like loan defaults and fraud.
 
-[![View Project](https://img.shields.io/badge/View-PowerBI_Project-purple)](https://github.com/ParasSukheja/Power_Bi_Projects/tree/main/Project_Baking_Analytics)
+[![View Project](https://img.shields.io/badge/View-PowerBI_Project-purple)](Power_Bi_Projects/Project_Baking_Analytics)
 
 ---
 
