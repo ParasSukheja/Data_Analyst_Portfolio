@@ -31,7 +31,7 @@ End-to-end data analytics project focused on optimizing logistics and supply cha
 **Supermarket Sales Dashboard**  
 An interactive Excel dashboard built using PivotTables and charts to analyze sales performance.
 
-[![View Project](https://img.shields.io/badge/View-Excel_Project-green)](Excel_Projects/tree/main/Project_Retail_SupermarketSales)
+[![View Project](https://img.shields.io/badge/View-Excel_Project-green)](Excel_Projects/Project_Retail_SupermarketSales)
 
 ---
 
